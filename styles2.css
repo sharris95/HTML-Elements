@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Navigation Menu */
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 15px;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Image Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 200px;
+    height: 300px;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    border: 3px solid #555;
+}
+
+/* Call-to-Action Buttons */
+#cta {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #218838;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Registration Form */
+#registration {
+    width: 300px;
+    margin: 20px auto; /* Centering the form */
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#registration label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#registration input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#registration input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+#registration button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration button:hover {
+    background-color: #0056b3;
+}
+
+/* Data Table */
+#data-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#data-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#data-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th, #data-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#data-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+#data-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#data-table tr:hover {
+    background-color: #f1f1f1;
+}
